@@ -1,8 +1,10 @@
 import React, {useState} from "react";
-import { Route } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import JumboComp from './jumboTron';
 import ItemContainer from './itemsContainer';
 import PizzaMaker from './pizza';
+
+
 
 
 
@@ -37,6 +39,15 @@ const App = () => {
       </Route>
       <Route path="/pizza/">
       <PizzaMaker />
+      </Route>
+      <Route path="/complete">
+      <div>
+        <h1>Your order is coming up!</h1>
+        <img src="../assets/pizza.jpg" />
+        
+        <p>Topsail keelhaul haul wind Barbary Coast ye scallywag line furl schooner lugsail. Main sheet sheet mizzen Sail ho holystone parrel Sink me case shot quarterdeck scuppers. </p>
+        <Link to="/"><button>Go home</button></Link>
+      </div>
       </Route>
     </div>
   );

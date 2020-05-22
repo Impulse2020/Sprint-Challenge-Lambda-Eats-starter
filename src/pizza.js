@@ -1,5 +1,6 @@
 import React from 'react';
 import JumboComp from './jumboTron';
+import { Link } from 'react-router-dom';
 
 function PizzaMaker(){
     
@@ -104,7 +105,7 @@ return(
     </label>
 
 {/*submit button */}
-    <button onsubmit = "">Add to order</button>
+    <Link to="/complete" ><button onsubmit = "">Add to order</button></Link>
 
 </div>
 
