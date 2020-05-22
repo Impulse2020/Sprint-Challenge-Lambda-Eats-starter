@@ -39,9 +39,9 @@ const App = () => {
       <PizzaMaker />
       </Route>
       <Route path="/complete">
-      <div>
+      <div className="form"> 
         <h1>Your order is coming up!</h1>
-        <img src="pizza.jpg" alt="" />
+        <img src="/pizza.jpg" alt="" />
        
         <p>Topsail keelhaul haul wind Barbary Coast ye scallywag line furl schooner lugsail. Main sheet sheet mizzen Sail ho holystone parrel Sink me case shot quarterdeck scuppers. </p>
         <Link to="/"><button>Go home</button></Link>
