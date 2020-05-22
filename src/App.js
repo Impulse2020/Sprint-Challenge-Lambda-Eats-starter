@@ -34,7 +34,7 @@ const App = () => {
       <p>Lambs and chops</p>
       <ItemContainer />
       </Route>
-      <Route path="/pizza/:name">
+      <Route path="/">
       <PizzaMaker />
       </Route>
     </div>
