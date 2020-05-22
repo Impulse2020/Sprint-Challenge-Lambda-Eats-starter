@@ -35,7 +35,7 @@ const App = () => {
       <JumboComp />
       <ItemContainer />
       </Route>
-      <Route path="/">
+      <Route path="/pizza/">
       <PizzaMaker />
       </Route>
     </div>
