@@ -1,4 +1,5 @@
 import React from 'react';
+import JumboComp from './jumboTron';
 
 function PizzaMaker(){
     
@@ -85,21 +86,22 @@ return(
 <label for="topping2"> pepperoni</label><br /> 
 <input type="checkbox" id="topping3" name="topping3" value="ham" />
 <label for="topping3"> ham</label><br />
-
-
+<input type="checkbox" id="topping4" name="topping4" value="bellpeppers" />
+<label for="topping4"> bell peppers</label><br />
+<input type="checkbox" id="topping5" name="topping5" value="pineapple" />
+<label for="topping5"> Pineapple</label><br />
 
  {/*Choice of substitute*/}  
-   <label>
-    <input></input>
-
-
+   <label className="switch">
+    <input type="checkbox" />
+    <span class="slider"></span>
    </label>
    
 {/*select quantity*/}
    
-   
-    <input name="quantity" type="drop-down"></input>
-
+   <label> &nbsp;
+    <input name="quantity" type="number" min="1" max="10"></input>
+    </label>
 
 {/*submit button */}
     <button onsubmit = "">Add to order</button>
