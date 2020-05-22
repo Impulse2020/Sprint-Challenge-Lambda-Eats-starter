@@ -32,6 +32,7 @@ const App = () => {
       <Route exact path ="/">
       <h1>Lambda Eats</h1>
       <p>Lambs and chops</p>
+      <JumboComp />
       <ItemContainer />
       </Route>
       <Route path="/">

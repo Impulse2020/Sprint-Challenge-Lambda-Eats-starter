@@ -1,6 +1,7 @@
 import React from 'react';
 
 function PizzaMaker(){
+    
 
 return(
 <div class="form">
@@ -74,14 +75,19 @@ return(
     </div>
 {/*Pizza toppings checkboxes below here v */}
 
-    
-    
-    
-    
-    <label>
-    <input></input>
-    </label>
-   
+
+
+
+<input type="checkbox" id="topping1" name="topping1" value="sausage" />
+<label for="topping1"> Sausage</label> <br />
+
+<input type="checkbox" id="topping2" name="topping2" value="pepperoni" />
+<label for="topping2"> pepperoni</label><br /> 
+<input type="checkbox" id="topping3" name="topping3" value="ham" />
+<label for="topping3"> ham</label><br />
+
+
+
  {/*Choice of substitute*/}  
    <label>
     <input></input>
