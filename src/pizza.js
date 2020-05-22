@@ -3,7 +3,7 @@ import React from 'react';
 function PizzaMaker(){
 
 return(
-<div>
+<div class="form">
     <h1> Store Name</h1>
     <h2>Start Your order</h2>
     <label>Name: &nbsp; 
@@ -31,16 +31,47 @@ return(
 {/*Pizza sauce options below v */}
 
 
-
-
-    <label>Sauce &nbsp;
-        <input>
-        </input>
-    </label>
-    <label>
-    <input></input>
-    </label>
+<div className ="form sauces">
+<p>
+    <label >Sauce &nbsp;
     
+    <p>
+    <label> Marinara &nbsp;
+    <input 
+    type = "radio"
+    name = "sauce"
+    value = "marinara"
+    />
+    </label>
+    <label>Chipotle Marinara &nbsp;
+    <input
+    type="radio"
+    name = "sauce"
+    value = "chipotle-marinara"
+
+    />
+    </label>
+    <label> Barbecue sauce &nbsp;
+    <input
+    type="radio"
+    name="sauce"
+    value = "barbecue" />
+    </label>
+    <label>Pesto &nbsp;
+    <input
+    type = "radio" 
+    name = "sauce"
+    value = "pesto"
+    
+    
+    
+    
+    />
+    </label>
+    </p>
+    </label>
+    </p>
+    </div>
 {/*Pizza toppings checkboxes below here v */}
 
     
