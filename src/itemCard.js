@@ -3,10 +3,10 @@ import React from 'react';
 function ItemCard(props){
 return(
 <div className= "card">
-    <h3>food item</h3>
+    <h3>Store Name</h3>
     <img src="/" />
-    <p>Price $0.00</p>
-    <button name="add"> buy </button>
+    <p>Delivery Fee $0.00 - $20.00</p>
+    <button name="add"> Go to store </button>
     </div>
 )
 }
