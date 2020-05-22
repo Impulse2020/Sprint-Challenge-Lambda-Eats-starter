@@ -32,8 +32,6 @@ const App = () => {
   return (
     <div>
       <Route exact path ="/">
-      <h1>Lambda Eats</h1>
-      <p>Lambs and chops</p>
       <JumboComp />
       <ItemContainer />
       </Route>
@@ -43,8 +41,8 @@ const App = () => {
       <Route path="/complete">
       <div>
         <h1>Your order is coming up!</h1>
-        <img src="../assets/pizza.jpg" />
-        
+        <img src="pizza.jpg" alt="" />
+       
         <p>Topsail keelhaul haul wind Barbary Coast ye scallywag line furl schooner lugsail. Main sheet sheet mizzen Sail ho holystone parrel Sink me case shot quarterdeck scuppers. </p>
         <Link to="/"><button>Go home</button></Link>
       </div>

@@ -6,10 +6,12 @@ import ItemCard from './itemCard'
 
 function ItemContainer() {
     return (
-        <div>
-
-        <ItemCard />
-        </div>)
+        <div className="form">
+            <h1>Lambda Eats</h1>
+            <p>Lambs and chops</p>
+            <ItemCard />
+        </div>
+        )
 }
 
 
